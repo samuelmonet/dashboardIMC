@@ -14,7 +14,7 @@ st.sidebar.title('Questions Selector')
 
 @st.cache
 def load_data():
-   data = pd.read_csv('../../visualizations.csv')
+   data = pd.read_csv('visualizations.csv')
    correl= pd.read_csv('correl.csv')
    return data,correl
 
